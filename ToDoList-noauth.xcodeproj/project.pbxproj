@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A431A101D663690000907B4 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A431A0F1D663690000907B4 /* ToDoListTableViewController.swift */; };
+		1A431A121D663B5A000907B4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A431A111D663B5A000907B4 /* ToDoItem.swift */; };
+		1AE6F90A1D66223A004215B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6F9091D66223A004215B2 /* AppDelegate.swift */; };
+		1AE6F90C1D66223A004215B2 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */; };
+		1AE6F90F1D66223A004215B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6F90D1D66223A004215B2 /* Main.storyboard */; };
+		1AE6F9111D66223A004215B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6F9101D66223A004215B2 /* Assets.xcassets */; };
+		61EC659E8236BA49CBB264DB /* Pods_ToDoList_noauth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1578DE4B3A992EB4CDE8CE8 /* Pods_ToDoList_noauth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A431A0F1D663690000907B4 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		1A431A111D663B5A000907B4 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		1AE6F9061D66223A004215B2 /* ToDoList-noauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList-noauth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE6F9091D66223A004215B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
+		1AE6F90E1D66223A004215B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE6F9101D66223A004215B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE6F9151D66223A004215B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B401447172534A4950B2FE /* Pods-ToDoList-noauth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList-noauth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoList-noauth/Pods-ToDoList-noauth.debug.xcconfig"; sourceTree = "<group>"; };
+		D1578DE4B3A992EB4CDE8CE8 /* Pods_ToDoList_noauth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList_noauth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27CBA32FA14A2B4B8FB095E /* Pods-ToDoList-noauth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList-noauth.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoList-noauth/Pods-ToDoList-noauth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE6F9031D66223A004215B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC659E8236BA49CBB264DB /* Pods_ToDoList_noauth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE6F8FD1D66223A004215B2 = {
+			isa = PBXGroup;
+			children = (
+				1AE6F9081D66223A004215B2 /* ToDoList-noauth */,
+				1AE6F9071D66223A004215B2 /* Products */,
+				9F380C8C433A2784DDC720BD /* Pods */,
+				B7EB8ED0FFA955AD2A1A2BB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE6F9071D66223A004215B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE6F9061D66223A004215B2 /* ToDoList-noauth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE6F9081D66223A004215B2 /* ToDoList-noauth */ = {
+			isa = PBXGroup;
+			children = (
+				1AE6F9091D66223A004215B2 /* AppDelegate.swift */,
+				1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */,
+				1AE6F90D1D66223A004215B2 /* Main.storyboard */,
+				1AE6F9101D66223A004215B2 /* Assets.xcassets */,
+				1AE6F9151D66223A004215B2 /* Info.plist */,
+				1A431A0F1D663690000907B4 /* ToDoListTableViewController.swift */,
+				1A431A111D663B5A000907B4 /* ToDoItem.swift */,
+			);
+			path = "ToDoList-noauth";
+			sourceTree = "<group>";
+		};
+		9F380C8C433A2784DDC720BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B401447172534A4950B2FE /* Pods-ToDoList-noauth.debug.xcconfig */,
+				E27CBA32FA14A2B4B8FB095E /* Pods-ToDoList-noauth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7EB8ED0FFA955AD2A1A2BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1578DE4B3A992EB4CDE8CE8 /* Pods_ToDoList_noauth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE6F9051D66223A004215B2 /* ToDoList-noauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE6F9181D66223A004215B2 /* Build configuration list for PBXNativeTarget "ToDoList-noauth" */;
+			buildPhases = (
+				DC93AF45AB66A82F1168C336 /* [CP] Check Pods Manifest.lock */,
+				1AE6F9021D66223A004215B2 /* Sources */,
+				1AE6F9031D66223A004215B2 /* Frameworks */,
+				1AE6F9041D66223A004215B2 /* Resources */,
+				E9A1F86198DFDF2912F52582 /* [CP] Embed Pods Frameworks */,
+				9A5BB38C0E8ACC79E810FB68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToDoList-noauth";
+			productName = "ToDoList-noauth";
+			productReference = 1AE6F9061D66223A004215B2 /* ToDoList-noauth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE6F8FE1D66223A004215B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bit & Ik'";
+				TargetAttributes = {
+					1AE6F9051D66223A004215B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AE6F9011D66223A004215B2 /* Build configuration list for PBXProject "ToDoList-noauth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE6F8FD1D66223A004215B2;
+			productRefGroup = 1AE6F9071D66223A004215B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE6F9051D66223A004215B2 /* ToDoList-noauth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE6F9041D66223A004215B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE6F9111D66223A004215B2 /* Assets.xcassets in Resources */,
+				1AE6F90F1D66223A004215B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A5BB38C0E8ACC79E810FB68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoList-noauth/Pods-ToDoList-noauth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC93AF45AB66A82F1168C336 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A1F86198DFDF2912F52582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoList-noauth/Pods-ToDoList-noauth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE6F9021D66223A004215B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE6F90C1D66223A004215B2 /* AddToDoItemViewController.swift in Sources */,
+				1AE6F90A1D66223A004215B2 /* AppDelegate.swift in Sources */,
+				1A431A121D663B5A000907B4 /* ToDoItem.swift in Sources */,
+				1A431A101D663690000907B4 /* ToDoListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AE6F90D1D66223A004215B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE6F90E1D66223A004215B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE6F9161D66223A004215B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AE6F9171D66223A004215B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE6F9191D66223A004215B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B401447172534A4950B2FE /* Pods-ToDoList-noauth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ToDoList-noauth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitandik.labs.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AE6F91A1D66223A004215B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27CBA32FA14A2B4B8FB095E /* Pods-ToDoList-noauth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ToDoList-noauth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitandik.labs.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE6F9011D66223A004215B2 /* Build configuration list for PBXProject "ToDoList-noauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE6F9161D66223A004215B2 /* Debug */,
+				1AE6F9171D66223A004215B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE6F9181D66223A004215B2 /* Build configuration list for PBXNativeTarget "ToDoList-noauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE6F9191D66223A004215B2 /* Debug */,
+				1AE6F91A1D66223A004215B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE6F8FE1D66223A004215B2 /* Project object */;
+}
