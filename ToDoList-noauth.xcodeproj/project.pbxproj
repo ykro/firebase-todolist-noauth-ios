@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A431A101D663690000907B4 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A431A0F1D663690000907B4 /* ToDoListTableViewController.swift */; };
 		1A431A121D663B5A000907B4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A431A111D663B5A000907B4 /* ToDoItem.swift */; };
+		1A431A141D665907000907B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A431A131D665907000907B4 /* GoogleService-Info.plist */; };
 		1AE6F90A1D66223A004215B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6F9091D66223A004215B2 /* AppDelegate.swift */; };
 		1AE6F90C1D66223A004215B2 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */; };
 		1AE6F90F1D66223A004215B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6F90D1D66223A004215B2 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		1A431A0F1D663690000907B4 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
 		1A431A111D663B5A000907B4 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		1A431A131D665907000907B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1AE6F9061D66223A004215B2 /* ToDoList-noauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList-noauth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE6F9091D66223A004215B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		1AE6F9081D66223A004215B2 /* ToDoList-noauth */ = {
 			isa = PBXGroup;
 			children = (
+				1A431A131D665907000907B4 /* GoogleService-Info.plist */,
 				1AE6F9091D66223A004215B2 /* AppDelegate.swift */,
 				1AE6F90B1D66223A004215B2 /* AddToDoItemViewController.swift */,
 				1AE6F90D1D66223A004215B2 /* Main.storyboard */,
@@ -154,6 +157,7 @@
 			files = (
 				1AE6F9111D66223A004215B2 /* Assets.xcassets in Resources */,
 				1AE6F90F1D66223A004215B2 /* Main.storyboard in Resources */,
+				1A431A141D665907000907B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

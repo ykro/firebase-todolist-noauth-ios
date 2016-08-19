@@ -9,7 +9,7 @@
 import UIKit
 
 class AddToDoItemViewController: UIViewController {
-    var toDoItem: ToDoItem = ToDoItem(item: "", username: "")
+    var toDoItem: ToDoItem = ToDoItem()
     
     @IBOutlet weak var txtNewItem: UITextField!
     
